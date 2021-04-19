@@ -3,15 +3,18 @@ public class card
 {
 private String suit;
 private  int value;
+
 public card (int n, String s)
 {
     value=n;
     suit=s;
+    
 }
 public int getValue()
 {
     return value;
 }
+
 public String getSuit()
 {
     return suit;
